@@ -11,6 +11,10 @@
   <description>
 
   </description>
+    
+    <author href="symonhambrey.worcestercomputing.com" email="symonhambrey@gmail.com">
+        WBS Computing
+    </author>
 
     <!--Android 6.0 or newer: Plugin to support runtime permissions-->
     <plugin name="cordova-plugin-geolocation-android-activator" />
