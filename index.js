@@ -38,7 +38,7 @@ function getPosition() {
 	if(counter%2!=0){
 		watchID=navigator.geolocation.watchPosition(function(position){
 			locateMe(position.coords.latitude, position.coords.longitude, position.timestamp, position.coords.altitude);
-		});
+		}, failPosition, locationOptions);
 	};
 }
 
